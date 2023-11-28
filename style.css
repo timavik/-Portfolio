@@ -1,0 +1,642 @@
+@font-face{
+    font-family: 'Proxima Nova';
+    src: url(fonts/proximanova_regular.ttf);
+  }
+  @font-face{
+    font-family: 'Proxima Nova';
+    src: url(fonts/proximanova_extrabold.otf);
+  }
+  @font-face{
+    font-family: 'Proxima Nova';
+    src: url(fonts/proximanova_light.otf);
+  }
+  @font-face{
+    font-family: 'Proxima Nova';
+    src: url(fonts/proximanova_bold.otf);
+  }
+body {
+    width: 1440px;
+    max-width: 100%;
+}
+
+/*nav*/
+.werh .pusto nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1fr 7fr;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.40);
+    position: fixed;
+    z-index: 1000;
+}
+
+.center {
+    margin-right: 120px;
+    margin-left: 118px;
+}
+
+.werh .pusto nav a {
+    text-decoration: none;
+    color: var(--Text, #333);
+}
+
+.werh .pusto nav .kudato {
+    margin-left: 64px;
+    margin-right: 463px;
+    display: grid;
+    grid-template-columns: 113px 89px 128px;
+    grid-template-rows: 1fr;
+    column-gap: 32px;
+    padding-top: 19px;
+    padding-bottom: 21px;
+}
+
+.werh .pusto nav .kudato a {
+    color: var(--Text, #333);
+    font-size: 15px;
+    line-height: 133%;
+    letter-spacing: 0.75px;
+}
+
+.werh .pusto nav .logo {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.werh .pusto nav .logo a {
+    color: #474747;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.7px;
+}
+
+.werh .pusto nav .user {
+    padding-top: 20px;
+    padding-bottom: 21px;
+}
+
+.werh .pusto nav .user a {
+    color: #000;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*main*/
+main{
+    padding-top: 164px;
+}
+.up .dok {
+    display: grid;
+    grid-template-columns: 560px 557px;
+    column-gap: 21px;
+}
+
+.up .dok .dok-left h2 {
+    color: var(--Heading, #000);
+    font-family: 'Proxima Nova';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.up .dok .dok-left h2 span {
+    color: var(--Main-color, #47A118);
+    font-family: 'Proxima Nova';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.up .dok .dok-left p {
+    color: var(--Text, #333);
+    font-family: 'Proxima Nova';
+    font-size: 15px;
+    line-height: 133%;
+    letter-spacing: 0.75px;
+}
+
+.up .dok .dok-left a {
+    color: var(--Text, #333);
+    font-family: 'Proxima Nova';
+    font-size: 15px;
+    line-height: 133%;
+    letter-spacing: 0.75px;
+    text-decoration: none;
+}
+
+.up .dok .dok-left button {
+    border-radius: 5px;
+    background: var(--Main-color, #47A118);
+    box-shadow: 2px 4px 15px 0px rgba(71, 161, 24, 0.35);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 23px;
+    line-height: 104%;
+    padding: 10px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.up .trid {
+    display: grid;
+    grid-template-columns: 558px 560px;
+    column-gap: 20px;
+}
+
+.up .trid .trid-right h2 {
+    color: var(--Heading, #000);
+    font-family: 'Proxima Nova';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.up .trid .trid-right h2 span {
+    color: var(--Main-color, #47A118);
+    font-family: 'Proxima Nova';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.up .trid .trid-right p {
+    color: var(--Text, #333);
+    font-family: 'Proxima Nova';
+    font-size: 15px;
+    line-height: 133%;
+    letter-spacing: 0.75px;
+}
+
+.up .trid .trid-right p span {
+    color: var(--Main-color, #47A118);
+    font-family: 'Proxima Nova';
+    font-size: 15px;
+    line-height: 133%;
+    letter-spacing: 0.75px;
+}
+
+.up .trid .trid-right a {
+    color: var(--Text, #333);
+    font-family: 'Proxima Nova';
+    font-size: 15px;
+    line-height: 133%;
+    letter-spacing: 0.75px;
+    text-decoration: none;
+}
+
+.up .trid .trid-left .trid-img-up {
+    margin-top: -358px;
+    margin-left: 279px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.up .teknologe {
+    display: grid;
+    grid-template-columns: 554px 560px;
+    column-gap: 20px;
+}
+
+.up .teknologe .teknologe-left h2 {
+    color: var(--Heading, #000);
+    font-family: 'Proxima Nova';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.up .teknologe .teknologe-left h2 span {
+    color: var(--Main-color, #47A118);
+    font-family: 'Proxima Nova';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.up .teknologe .teknologe-left p {
+    color: var(--Text, #333);
+    font-family: 'Proxima Nova';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 133%;
+    letter-spacing: 0.75px;
+}
+
+.up .teknologe .teknologe-left button {
+    border-radius: 5px;
+    background: var(--Main-color, #47A118);
+    box-shadow: 2px 4px 15px 0px rgba(71, 161, 24, 0.35);
+    display: flex;
+    padding: 15px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 23px;
+    line-height: 104%;
+    margin-top: 13px;
+    margin-left: 180px;
+}
+.up .teknologe .teknologe-left button.gr{
+    border-color: #47A118;
+}
+
+
+
+
+
+
+.how-works .zagolov h3 {
+    color: var(--Heading, #000);
+    text-align: center;
+    font-family: 'Proxima Nova';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50%;
+    letter-spacing: 2px;
+}
+
+.how-works .list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.how-works .list h6 {
+    color: var(--Heading, #000);
+    font-family: 'Proxima Nova';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 83%;
+    letter-spacing: 1.2px;
+}
+
+.how-works .list  h6 span {
+    color: var(--Main-color, #47A118);
+    text-align: right;
+    font-family: 'Proxima Nova';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 83%;
+    letter-spacing: 1.2px;
+}
+
+/* .how-works .list .odin,
+.how-works .list .pyt,
+.how-works .list .tri {
+    max-width: 366px;
+    width: 100%;
+} */
+
+.how-works .list p {
+    color: var(--second-color-7-d-7-d-7-d, #7D7D7D);
+    text-align: right;
+    font-family: 'Proxima Nova';
+    font-size: 15px;
+    line-height: 133%;
+    letter-spacing: 0.75px;
+}
+
+/* .how-works .list .dva,
+.how-works .list .chet {
+    margin-left: 57px;
+} */
+
+/* .how-works .list .odin,
+.how-works .list .tri,
+.how-works .list .pyt {
+    margin-right: 57px;
+} */
+.how-works .list .odin .odin-text p,
+.how-works .list .chet .chet-text p{
+width: 100%;
+max-width: 366px;
+height: 100%;
+max-height: 60px;
+}
+.how-works .list .dva .dva-text p,
+.how-works .list .pyt .pyt-text p{
+    width: 100%;
+max-width: 366px;
+height: 100%;
+max-height: 80px;
+}
+
+.how-works .list .tri .tri-text p{
+    width: 100%;
+max-width: 366px;
+height: 100%;
+max-height: 100px;
+}
+.how-works .list .odin .odin-text h3,
+.how-works .list .tri .tri-text h3,
+.how-works .list .pyt .pyt-text h3{
+    width: 100%;
+max-width: 366px;
+height: 100%;
+max-height: 40px;
+}
+
+.how-works .list .dva .dva-text h3{
+    width: 100%;
+max-width: 301px;
+height: 100%;
+max-height: 20px;
+}
+.how-works .list .chet .chet-text h3{
+    width: 100%;
+max-width: 366px;
+height: 100%;
+max-height: 20px;
+}
+.how-works .list .odin,
+.how-works .list .dva,
+.how-works .list .tri,
+.how-works .list .chet,
+.how-works .list .pyt{
+    display: flex;
+}
+.how-works .list .odin,
+.how-works .list .tri,
+.how-works .list .pyt{
+    margin-left: 84px;
+}
+.how-works .list .odin{
+    margin-left: 120px;
+}
+
+.how-works .list .odin .odin-img::after{
+    content: '';
+    display: inline-block;
+    height: 360px;
+    width: 7px;
+    background-color: #47A118;
+    vertical-align: super;
+margin-left: 48px;
+}
+.how-works .list .dva .dva-img::before{
+    content: '';
+    display: inline-block;
+    height: 770px;
+    width: 7px;
+    background-color: #EDFFE1;
+    vertical-align: super;
+margin-left: 45px;
+}
+
+.how-works .list .dva,
+.how-works .list .chet{
+    margin-left: 558px;
+}
+
+.how-works .list .odin .odin-img{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/odin.svg);
+}
+.how-works .list .dva .dva-img{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/dva.svg);
+}
+.how-works .list .tri .tri-img{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/tri.svg);
+}
+.how-works .list .chet .chet-img{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/chet.svg);
+}
+.how-works .list .pyt .pyt-img{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/pyt.svg);
+}
+
+
+
+
+
+
+
+.down {
+    background: #47a118;
+    ;
+    display: grid;
+}
+
+.down .down-up {
+    margin-left: 378px;
+    margin-right: 349px;
+    display: grid;
+}
+
+.down .down-up h2 {
+    color: #EDFFE1;
+    font-family: 'Roboto';
+    font-weight: 800;
+}
+
+.down .down-up p {
+    color: #EDFFE1;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 138%;
+}
+
+.down .down-center {
+    display: grid;
+    grid-template-columns: 326px 370px;
+    margin-left: 378px;
+    column-gap: 21px;
+}
+
+.down .down-center input::placeholder {
+    color: #D8D6D6;
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    color: #D8D6D6;
+}
+
+input[type="text"],
+input[type="text" i],
+input[type="tel"],
+input[type="tel" i],
+input[type="email"],
+input[type="email" i],
+input[type="submit"],
+input[type="submit" i] {
+    width: 326px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #EDFFE1;
+}
+
+input[type="file"],
+input[type="file" i] {
+    width: 326px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    color: transparent;
+    border: 1px solid #47A118;
+}
+
+.down .down-center .down-right input {
+    width: 370px;
+    height: 159px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #EDFFE1;
+}
+
+.down .down-center .down-right P {
+    color: #FBFFF9;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 138%;
+}
+
+
+
+
+footer {
+    background-color: #202020;
+}
+
+footer .footer-up {
+    display: flex;
+}
+
+footer .footer-up .konst ol,
+footer .footer-up .zak ol,
+footer .footer-up .komp ol {
+    color: var(--Main-color, #47A118);
+    text-align: left;
+    font-family: 'Proxima Nova';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 133%;
+    letter-spacing: 0.75px;
+}
+
+footer .footer-up .konst li,
+footer .footer-up .zak li,
+footer .footer-up .komp li {
+    color: var(--second-color-2-d-8-d-6-d-6, #D8D6D6);
+    text-align: left;
+    font-family: 'Proxima Nova';
+    font-size: 15px;
+    line-height: 133%;
+    letter-spacing: 0.75px;
+    list-style-type: none;
+}
+
+footer .footer-up .konst {
+    margin-right: 81px;
+}
+
+footer .footer-up .zak {
+    margin-right: 392px;
+}
+
+footer .footer-up .konst a,
+footer .footer-up .zak a,
+footer .footer-up .komp a {
+    color: #D8D6D6;
+}
+
+footer .footer-midle {
+    display: grid;
+    grid-template-columns: 0.18fr 0.04fr 0.04fr 0.04fr 0.04fr;
+    padding-top: 125px;
+    padding-bottom: 20px;
+}
+
+footer .footer-midle p {
+    color: #FFF;
+    margin-right: 45px;
+}
+
+footer .footer-down {
+    display: flex;
+}
+
+footer .line-474747 {
+    color: greenyellow;
+    width: 1440px;
+}
+
+footer .footer-down .logo-footer {
+    display: grid;
+    grid-template-rows: 20px 18px;
+}
+
+footer .footer-down .logo-footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer .footer-down .user-dog {
+    margin-left: 119px;
+}
+
+footer .footer-down .user-dog a {
+    color: #7D7D7D;
+    text-decoration: none;
+}
+
+footer .footer-down .info p {
+    color: #D8D6D6;
+}
+
+footer .footer-up .konst a,
+footer .footer-up .zak a,
+footer .footer-up .komp a,
+footer .footer-down .user-dog {
+    text-decoration: none;
+}
